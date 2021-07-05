@@ -76,7 +76,7 @@ body {
   color: #575757;
 }
 
-.hero__section--text a {
+.btn {
   font-size: 2rem;
   font-weight: 500;
   color: ghostwhite;
@@ -99,3 +99,40 @@ body {
 .hero__section--img img {
   width: 100%;
 }
+
+/* about section start */
+.about__section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/7.png);
+  background-repeat: no-repeat;
+}
+
+.about__section--img {
+  width: 40%;
+}
+
+.about__section--img img {
+  width: 60%;
+}
+
+.about__section--text {
+  width: 40%;
+}
+.about__section--text h1 {
+  font-size: 5rem;
+  text-transform: capitalize;
+  color: #707070;
+  font-weight: 900;
+  margin-bottom: 3rem;
+}
+
+.about__section--text p {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 6rem;
+}
+/* about section end */
