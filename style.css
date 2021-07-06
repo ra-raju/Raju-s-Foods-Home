@@ -177,9 +177,9 @@ section {
   width: 25%;
   margin: 0 3rem;
   padding: 0.5rem;
-  border-radius: 20px;
   box-shadow: 0.5rem 0.5rem 0.5rem rgb(221, 212, 212),
     -0.5rem -0.5rem 1rem rgb(221, 212, 212);
+  border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
@@ -209,4 +209,35 @@ section {
   letter-spacing: 0.1rem;
 }
 
-/* recipies section end */ ;
+/* recipies section end */
+
+/* social follower */
+.social__follower {
+  height: 30vh;
+  width: 80vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10rem auto;
+  box-shadow: 0.5rem 0.5rem 0.5rem rgb(221, 212, 212),
+    -0.5rem -0.5rem 1rem rgb(221, 212, 212);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.social {
+  align-items: center;
+}
+
+.social h1 {
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+.social p {
+  font-size: 1.6rem;
+}
+/* social follower end */
