@@ -14,14 +14,14 @@ body {
   overflow-x: hidden;
 }
 
-section {
-  padding: 3rem 0;
-}
-
 .navbar {
   height: auto;
+  width: 100vw;
   background-color: white;
   box-shadow: 0.2rem 0.2rem 2rem #333;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .navbar ul {
@@ -32,22 +32,22 @@ section {
 
 .navbar ul li {
   display: inline-block;
-  margin: 2rem 5rem;
+  margin: 1rem 4rem;
 }
 
 .navbar ul li a {
-  font-size: 2.5rem;
+  display: block;
+  font-size: 1.8rem;
   font-weight: 900;
   color: black;
   text-decoration: none;
   text-transform: uppercase;
-  background-color: orange;
   padding: 1rem 2rem;
-  border-radius: 100px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  -ms-border-radius: 100px;
-  -o-border-radius: 100px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
 
 .hero__section {
@@ -154,7 +154,6 @@ section {
   text-transform: capitalize;
   color: #707070;
   font-weight: 900;
-  margin-bottom: 3rem;
 }
 
 .recipies__para {
