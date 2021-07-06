@@ -14,6 +14,18 @@ body {
   overflow-x: hidden;
 }
 
+.section__heading {
+  font-size: 5rem;
+  text-transform: capitalize;
+  color: #707070;
+  font-weight: 900;
+  margin-bottom: 3rem;
+}
+
+.color {
+  color: orange;
+}
+
 .navbar {
   height: auto;
   width: 100vw;
@@ -69,10 +81,6 @@ body {
   color: #575757;
 }
 
-.color {
-  color: orange;
-}
-
 .hero__section--text p {
   margin: 7rem 0;
   letter-spacing: 0.2rem;
@@ -126,13 +134,6 @@ body {
 .about__section--text {
   width: 40%;
 }
-.about__section--text h1 {
-  font-size: 5rem;
-  text-transform: capitalize;
-  color: #707070;
-  font-weight: 900;
-  margin-bottom: 3rem;
-}
 
 .about__section--text p {
   font-size: 2rem;
@@ -147,13 +148,6 @@ body {
   height: auto;
   width: 100vw;
   background-color: #fdfdfd;
-}
-
-.recipies__heading {
-  font-size: 4rem;
-  text-transform: capitalize;
-  color: #707070;
-  font-weight: 900;
 }
 
 .recipies__para {
@@ -257,13 +251,6 @@ body {
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-}
-
-.contact h1 {
-  font-size: 3rem;
-  text-transform: capitalize;
-  padding: 2rem 0;
-  margin-top: 2rem;
 }
 
 input,
